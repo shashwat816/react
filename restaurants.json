@@ -1,0 +1,817 @@
+{ 
+    "restaurants": [
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "110314",
+            "name": "Paa G Delhi chaap wale",
+            "cloudinaryImageId": "hqaf0xa9owp6dedbsqxv",
+            "locality": "GURU NANAK NAGAR",
+            "areaName": "Andheri East",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Fast Food",
+                "Chinese"
+            ],
+            "avgRating": 4.1,
+            "veg": true,
+            "parentId": "315644",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "2.1K+",
+            "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "1.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-18 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/Bolt%20Listing%20badge@3x.pngImage preview",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.pngImage preview",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/Bolt%20Listing%20badge@3x.pngImage preview"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.pngImage preview"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/paa-g-delhi-chaap-wale-guru-nanak-nagar-andheri-east-rest110314",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "984661",
+            "name": "Cafe Safar",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/2099823a-c5b2-4312-8b60-0b8050eb2b1b_984661 (1).jpgImage preview",
+            "locality": "Marol Sakinaka",
+            "areaName": "Marol Sakinaka",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani",
+                "Chinese",
+                "Mughlai",
+                "Pizzas",
+                "rolls",
+                "sandwich",
+                "Fast Food"
+            ],
+            "avgRating": 4.4,
+            "parentId": "446998",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "348",
+            "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "2.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-19 00:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "discountTag": "FLAT DEAL"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/cafe-safar-marol-sakinaka-rest984661",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "239500",
+            "name": "Meraki",
+            "cloudinaryImageId": "rybgrxmixknmny9jncql",
+            "locality": "Ak Road",
+            "areaName": "Marol Sakinaka",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Chinese",
+                "Thai",
+                "Asian"
+            ],
+            "avgRating": 4.3,
+            "parentId": "2356",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "23K+",
+            "sla": {
+                "deliveryTime": 39,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "2.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-19 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Chinese.pngImage preview",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Chinese.pngImage preview"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹199"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/meraki-ak-road-marol-sakinaka-rest239500",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "645235",
+            "name": "Dum Safar Biryani",
+            "cloudinaryImageId": "1154cffac2453eb0bf7fdda7e5ea1659",
+            "locality": "Marol",
+            "areaName": "TIMES SQUARE",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Biryani",
+                "Kebabs",
+                "Tandoor",
+                "Indian",
+                "Desserts"
+            ],
+            "avgRating": 4.2,
+            "parentId": "351013",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "573",
+            "sla": {
+                "deliveryTime": 38,
+                "lastMileTravel": 2.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "2.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-18 23:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹119"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/dum-safar-biryani-marol-times-square-rest645235",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "9868",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/b8bbd205-52ff-4cf1-8bad-d336da9c1aaa_9868.jpgImage preview",
+            "locality": "Chakala",
+            "areaName": "Andheri East",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 4.2,
+            "parentId": "721",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "25K+",
+            "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 0.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "0.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-19 03:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Pizza.pngImage preview",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Pizza.pngImage preview"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/pizza-hut-chakala-andheri-east-rest9868",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "19009",
+            "name": "Dimsum (MOMO) Express",
+            "cloudinaryImageId": "u8cfrvold6cr6iz3ayni",
+            "locality": "Andheri East",
+            "areaName": "Andheri East",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Asian",
+                "Chinese",
+                "Momos"
+            ],
+            "avgRating": 4,
+            "parentId": "73022",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "21K+",
+            "sla": {
+                "deliveryTime": 38,
+                "lastMileTravel": 1.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "1.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-19 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹99"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "3.8",
+                    "ratingCount": "1.1K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/dimsum-momo-express-andheri-east-rest19009",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "19105",
+            "name": "Faasos - Wraps, Rolls & Shawarma",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/28/d134f231-c5bd-4a46-b0b5-b8d2e9a0e89d_19105.JPGImage preview",
+            "locality": "Near Holi family school, Mahakali",
+            "areaName": "Andheri East",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Kebabs",
+                "Fast Food",
+                "Snacks",
+                "American",
+                "Healthy Food",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.4,
+            "parentId": "21809",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "20K+",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "1.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-18 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/Bolt%20Listing%20badge@3x.pngImage preview",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Rolls.pngImage preview",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/Bolt%20Listing%20badge@3x.pngImage preview"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Rolls.pngImage preview"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹89"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/faasos-wraps-rolls-and-shawarma-near-holi-family-school-mahakali-andheri-east-rest19105",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+            "id": "185159",
+            "name": "KFC",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/49275558-8487-4cf2-8acf-dbb3a78bcac8_185159.JPGImage preview",
+            "locality": "Kanakia Wall Street",
+            "areaName": "Andheri East",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "Fast Food",
+                "Rolls & Wraps"
+            ],
+            "avgRating": 4.2,
+            "parentId": "547",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "17K+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-03-19 04:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/Bolt%20Listing%20badge@3x.pngImage preview",
+                        "description": "bolt!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/Bolt%20Listing%20badge@3x.pngImage preview"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "text": "BENEFITS",
+                    "logo": "v1634558776/swiggy_one/OneLogo_3x.pngImage preview"
+                },
+                "freedelMessage": "FREE DELIVERY"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c9408c80-374f-42c9-8817-41f01b947ee2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/mumbai/kfc-kanakia-wall-street-andheri-east-rest185159",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+]}
