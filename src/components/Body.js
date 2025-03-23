@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 const Body = () => {
@@ -26,10 +27,10 @@ const Body = () => {
 
   return (
     <div className="body">
-      <div className="filter">
-        <div className="search">
+      <div className="flex">
+        <div className="m-4 p-4">
           <input
-            className="search-box"
+            className="border border-solid border-black pl-2 focus:ring-2 focus:ring-blue-500 focus:outline-none rounded-md"
             type="text"
             value={searchText}
             onChange={(e) => {
@@ -37,11 +38,10 @@ const Body = () => {
             }}
           />
           <button
-            className="search-btn"
+            className="mx-4 px-4 bg-green-200 rounded-md"
             onClick={() => {
               // update the restaurant list with filtered data
               const filterList = restaurantsList.filter((res) => {
-                console.log(searchText);
                 return res.info.name
                   .toLowerCase()
                   .includes(searchText.toLowerCase());
@@ -52,21 +52,31 @@ const Body = () => {
             Search
           </button>
         </div>
-        <button
-          className="filter-btn"
-          onClick={() => {
-            const filteredlist = restaurantsList.filter(
-              (res) => res.info.avgRating >= 4.5
-            );
-            setRestaurantsList(filteredlist);
-          }}
-        >
-          Top rated restaurants
-        </button>
+        <div className="flex items-center">
+          <button
+            className="mx-4 px-4 bg-green-200 rounded-md"
+            onClick={() => {
+              const filteredlist = restaurantsList.filter(
+                (res) => res.info.avgRating >= 4.5
+              );
+              setRestaurantsList(filteredlist);
+            }}
+          >
+            Top rated restaurants
+          </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap">
         {filteredResList.map((res) => {
-          return <RestaurantCard key={res.info.id} resData={res} />;
+          return (
+            <Link
+              key={res.info.id}
+              to={"/restaurant/menu/" + res.info.id}
+              className="menu-link-card"
+            >
+              <RestaurantCard resData={res} />
+            </Link>
+          );
         })}
       </div>
     </div>
