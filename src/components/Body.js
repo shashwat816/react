@@ -1,26 +1,31 @@
 import { Link } from "react-router-dom";
-import RestaurantCard from "./RestaurantCard";
-import { useState, useEffect } from "react";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
+import { useState, useEffect, useContext } from "react";
+import { RESTAURANT_API_URL } from "../utils/constant";
+import UserContext from "../utils/userContext";
 const Body = () => {
   const [restaurantsList, setRestaurantsList] = useState([]);
   const [filteredResList, setFilteredResList] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const { userName, setUserName } = useContext(UserContext);
+  
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = async () => {
-    const response = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.114801552705504&lng=72.86358956247568&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    );
+    const response = await fetch(RESTAURANT_API_URL);
     const resData = await response.json(); // converts Readable Stream which is in a JSON format to a javascript object;
+    // console.log("resData", resData)
     setRestaurantsList(
-      resData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+      resData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants
     );
     setFilteredResList(
-      resData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+      resData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants
     );
   };
@@ -65,6 +70,16 @@ const Body = () => {
             Top rated restaurants
           </button>
         </div>
+        <div className="flex items-center">
+          <label>Enter User :</label>
+          <input
+            className="m-2 border border-solid border-black pl-2 focus:ring-2 focus:ring-blue-500 focus:outline-none rounded-md"
+            value={userName}
+            onChange={(e) => {
+              setUserName(e.target.value)
+            }}
+          />
+        </div>
       </div>
       <div className="flex flex-wrap">
         {filteredResList.map((res) => {
@@ -74,7 +89,11 @@ const Body = () => {
               to={"/restaurant/menu/" + res.info.id}
               className="menu-link-card"
             >
-              <RestaurantCard resData={res} />
+              {res.info.isOpen ? (
+                <RestaurantCardPromoted resData={res} />
+              ) : (
+                <RestaurantCard resData={res} />
+              )}
             </Link>
           );
         })}
